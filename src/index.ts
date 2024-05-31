@@ -18,7 +18,7 @@ class GraphQLFoo {
 
 @Resolver((of) => GraphQLFoo)
 class FooResolver {
-  @Query(() => GraphQLFoo)
+  @Query((returns) => GraphQLFoo)
   foo(): GraphQLFoo {
     return new GraphQLFoo();
   }
