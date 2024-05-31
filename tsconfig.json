@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+  }
+}
